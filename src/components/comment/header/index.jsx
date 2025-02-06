@@ -37,6 +37,10 @@ function Header() {
               <img src="./images/icon-edit.svg" aria-hidden="true" />
               Edit
             </Button>
+            <Button onClick={onReply}>
+              <img src="./images/icon-reply.svg" aria-hidden="true" />
+              Reply
+            </Button>
           </>
         ) : (
           <Button onClick={onReply}>
